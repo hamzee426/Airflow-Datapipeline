@@ -15,3 +15,8 @@ Technologies used
 **- AWS S3:** This is a highly scalable object storage service that stores data as objects within buckets. It is commonly used to store and distribute large media files, data backups and static website files. For this project it is used to store data scraped from target website.
 
 **- AWS SQS:** This is a message queuing service. It exchanges and stores messages between software components. The service adds the messages in a queue. Users or services pick up the messages from the queue. Once processed the messages gets deleted from the queue. In this project it was used to receive notifications from S3 to an SQS queue to be read by the Snowflake server.
+
+
+**ARCHITECTURE**
+![architecture](https://github.com/hamzee426/Airflow-Datapipeline/assets/89994778/2cec9d26-df7b-437d-b1fe-dadd5846485b)
+
