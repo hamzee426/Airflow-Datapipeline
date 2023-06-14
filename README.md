@@ -17,6 +17,8 @@ Technologies used
 **- AWS SQS:** This is a message queuing service. It exchanges and stores messages between software components. The service adds the messages in a queue. Users or services pick up the messages from the queue. Once processed the messages gets deleted from the queue. In this project it was used to receive notifications from S3 to an SQS queue to be read by the Snowflake server.
 
 
+
 **ARCHITECTURE**
+
 ![architecture](https://github.com/hamzee426/Airflow-Datapipeline/assets/89994778/2cec9d26-df7b-437d-b1fe-dadd5846485b)
 
