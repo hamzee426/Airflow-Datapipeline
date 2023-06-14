@@ -22,3 +22,5 @@ Technologies used
 
 ![architecture](https://github.com/hamzee426/Airflow-Datapipeline/assets/89994778/2cec9d26-df7b-437d-b1fe-dadd5846485b)
 
+**PIPELINE FLOW**
+start Airflow server-> Trigger data crawler Dag -> Crawler starts -> loads data into s3 -> snowpipe loads data into table from s3
