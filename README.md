@@ -2,6 +2,7 @@
 Introducing a Data Pipeline Project that integrates Airflow for Data Orchestration
 
 Technologies used
+
 **- Apache Airflow:** Apache Airflow is an open-source platform for authoring, scheduling and monitoring data and computing workflows. For this project it was used to manage data extraction and transformation process
 
 **- Snowflake:** This is a cloud-based data warehousing platform for data storage and analytics purpose. For this project it was used to query datasets loaded automatically from S3
